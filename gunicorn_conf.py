@@ -9,5 +9,5 @@ worker_class = 'uvicorn.workers.UvicornWorker'
 
 # Logging Options
 loglevel = 'debug'
-accesslog = '/home/fastapi/logs/access_log'
-errorlog =  '/home/fastapi/logs/error_log'
+accesslog = '/home/deployer/fastapi/logs/access_log'
+errorlog =  '/home/deployer/fastapi/logs/error_log'
