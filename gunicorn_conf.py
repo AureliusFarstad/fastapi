@@ -1,7 +1,7 @@
 from multiprocessing import cpu_count
 
 # Socket Path
-bind = 'unix:/home/deployer/fastapi/gunicorn.sock'
+bind = 'localhost:5000'
 
 # Worker Options
 workers = cpu_count() + 1
