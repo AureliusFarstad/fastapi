@@ -2,9 +2,10 @@ from multiprocessing import cpu_count
 
 # Socket Path
 bind = 'localhost:5000'
+timeout = 600
 
 # Worker Options
-workers = cpu_count() + 1
+workers = cpu_count()
 worker_class = 'uvicorn.workers.UvicornWorker'
 
 # Logging Options

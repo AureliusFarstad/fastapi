@@ -4,3 +4,4 @@ fastapi
 torch
 transformers
 ckip_transformers
+chinese-english-lookup
