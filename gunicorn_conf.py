@@ -5,7 +5,7 @@ bind = 'localhost:5000'
 timeout = 600
 
 # Worker Options
-workers = cpu_count()
+workers = 1
 worker_class = 'uvicorn.workers.UvicornWorker'
 
 # Logging Options
