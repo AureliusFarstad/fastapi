@@ -1,4 +1,6 @@
 uvicorn
 gunicorn
 fastapi
-jieba
+torch
+transformers
+ckip_transformers
